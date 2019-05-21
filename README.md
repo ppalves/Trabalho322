@@ -1,12 +1,4 @@
 
-# Modelo para Documentação de um Componente
-
-A documentação será feita em Markdown, vide detalhes sobre ele em: https://guides.github.com/features/mastering-markdown/
-
-E mais especificamente sobre tabelas em: https://help.github.com/en/articles/organizing-information-with-tables
-
-Segue abaixo o modelo de como deve ser documentado um componente. Tudo o que for indicado entre `<...>` indica algo que deve ser substituído pelo indicado.
-
 # Componente `<IStatistics>`
 
 Campo | Valor
