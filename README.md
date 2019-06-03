@@ -1,4 +1,4 @@
-﻿![Alt text](relative/path/to/equipiada.jpg?raw=true "Equipiada Inc.")
+﻿![Alt text](relative/path/to/Equipiada.jpg?raw=true "Equipiada Inc.")
 
 # Componente `Statistics`
 
@@ -111,7 +111,7 @@ Autores | Andreis
 Objetivo | Faz dialogos estúpidos, mas melhores.
 Interface | IRealistic_Dialogue
 
-~
+~~~
 public interface IRealistic_Dialogue{
     public void connect(Patient p, Doctor d);
     public void additional(boolean additional);
@@ -121,7 +121,7 @@ public interface IRealistic_Dialogue{
     public String answers(String answer);
     
 }
-~
+~~~
 
 ### Interface `IRealistic_Dialogue`
 Avalia frequências na tabela e cria uma tabela própria com os valores, depois calcula probabilidades e probabilidades combinadas`.
