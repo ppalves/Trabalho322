@@ -1,4 +1,4 @@
-﻿![Alt text](relative/path/to/Equipiada.jpg?raw=true "Equipiada Inc.")
+﻿![Alt text](Equipiada.jpg?raw=true "Equipiada Inc.")
 
 # Componente `Statistics`
 
