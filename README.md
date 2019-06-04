@@ -1,30 +1,21 @@
 ﻿![Alt text](Equipiada.jpg?raw=true "Equipiada Inc.")
-
-# Componente `Statistics`
+# Componente `Statistic`
 
 Campo | Valor
 ----- | -----
-Classe | Components.Statistics
+Classe | Components.Statistic
 Autores | Andreis
 Objetivo | Fazer uma análise estatísitca do DataSet. Utilizar probabilidades combinadas para encontrar os sintomas e doenças mais prováveis.
 Interface | IStatistics
 
 ~~~
-public interface IStatistic extends ITableProducerReceptacle{
+ public interface IStatistic extends ITableProducerReceptacle{
     public void connect(ITableProducer producer);
-    // Conecta ao produtor de tabela;
     public String[][] findUnique();
-    // Encontra doenças unicas na tabela, retorna doenças e frequencias
-    public String[][] frequencyTableAttributes();
-    // Encontra frequencia de atributos por doença;
-    public String[][] frequencyTableDisease();
-    // Encontra frequencia de doenças por atributo
-    public String[][] percentageAttributes();
-    // Porcentagem das frequencias
-    public String[][] percentageDiseases();
-    // Porcentagem dos atributos
-    public String[][] likely(String[] symptoms);
-    // Checa probabilidade dados os sintomas;
+    public String[][] findFrequency();
+    public String[][] relativePercentage();
+    public String[][] absolutePercentage();
+    public String[][] simpleDiagnose(String symptom);
 }
 ~~~
 
@@ -35,11 +26,10 @@ Método | Objetivo
 -------| --------
 connect | Apenas conecta com um ponteiro para o produtor da tabela (padrão fornecido pelo professor), nas próximas atualizações não será preciso utilizar o ITableProducer
 findUnique | Encontra as doenças únicas (ou seja, extrai repetições) e suas frequências
-frequencyTableAttributes | Encontra a relação de atributos (sintomas) por doença em uma tabela. Exemplo: Paralysis em dois diagnósticos de Bacterial_Infection
-frequencyTableDiseases | Encontra a relação de doenças por atributos. Exemplo: Bacterial_Infection encontrado duas vezes em Paralysis. Em teoria é a mesma tabela acima, apenas demonstrada de outro jeito para facilitar iterações dependendo da necessidade.
-percentageAttributes | Acha a porcentagem total de atributos em valores absolutos. Ex: Duas aparições de Paralysis, 100% em Bacterial Infection.
-percentageCombined | Faz uma tabela para utilizar probabilidades combinadas. Ex: Duas aparições de Paralysis em 19 diagnósticos (2/19) e uma aparição em Bacterial Infection (1/19).
-likely | Dado um vetor de strings com o nome dos sintomas, retorna uma matriz com as doenças e as probabilidades. Utilizando os valores acima, se você tem paralysis, teria [(1/19)/(2/19)] = 50% de ter Bacterial Infection.
+findFrequency | Encontra a relação de atributos (sintomas) por doença em uma tabela. Exemplo: Paralysis em dois diagnósticos de Bacterial_Infection
+relativePercentage | Encontra a relação de porcentagem relativa dos sintomas (100% de paralysis em bacterial_infection);
+absolutePercentage | Acha a porcentagem absoluta dos sintomas (11% dos diagnosticos possuem paralysis em bacterial_infection
+simpleDiagnose | Dado um sintoma, retorna uma matriz com as doenças e as probabilidades. Utilizando os valores acima, se você tem paralysis, teria [(1/19)/(2/19)] = 50% de ter Bacterial Infection.
 
 # Componente `PCA_Analysis`
 
