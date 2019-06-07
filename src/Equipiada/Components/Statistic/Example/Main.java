@@ -1,6 +1,7 @@
 package Equipiada.Components.Statistic.Example;
 
 import Equipiada.Components.Statistic.Statistic.Statistic;
+import Equipiada.Components.Statistic.StatisticFactory.StatisticFactory;
 import Equipiada.Templates.DataSetComponent.DataSetComponent;
 import Equipiada.Templates.IDataSet.IDataSet;
 
@@ -8,12 +9,8 @@ public class Main {
 
     private static void printMatrix(String[][] s) {
         for (String[] strings : s) {
-            for (int b = 0; b < s[0].length; b++) {
-                if(strings[b].equals("0,00"))
-                    System.out.print("0    ");
-                else
-                    System.out.print(strings[b] + " ");
-            }
+            for (int b = 0; b < s[0].length; b++)
+                System.out.print(strings[b] + " ");
             System.out.println();
         }
     }
@@ -24,34 +21,37 @@ public class Main {
         IDataSet dataset = new DataSetComponent();
         dataset.setDataSource(tablePath);
         // Aqui estou criando o DataSet (o template do Santanche), utilize o endereço da sua tabela
-        Statistic s = new Statistic();
+
+        Statistic s = StatisticFactory.createStatistic();
         s.connect(dataset);
+
         // Aqui criei meu componente Statistic e conectei ele no dataset
         // Vamos começar pegando as doenças únicas e o número de ocorrências na tabela:
-        String[][] result = s.findUnique();
         System.out.println("============ Unicas ============");
-        printMatrix(result);
+        printMatrix(s.findUnique());
         // Agora eu quero ver o número de vezes que cada sintoma aparece em cada doença. Veja que cada coluna
         // é um sintoma, igual a tabela;
-        result = s.findFrequency();
-        System.out.println("============ Unicas ============");
-        printMatrix(result);
+        System.out.println("============ Frequencias ============");
+        printMatrix(s.findFrequency());
+
         // Agora vamos ver as porcentagens, absolutas e relativas
         System.out.println("============ % Relativa ============");
-        result = s.relativePercentage();
-        printMatrix(result);
+        printMatrix(s.relativePercentage());
+
         System.out.println("============ % Absolute ============");
-        result = s.absolutePercentage();
-        printMatrix(result);
+        printMatrix(s.absolutePercentage());
+
         //Agora quero achar as probabilidades da pessoa ter X doenças dependendo do sintoma S:
         System.out.println("============ Diagnóstico ============");
         System.out.println("severe_anger");
-        result = s.simpleDiagnose("severe_anger");
-        printMatrix(result);
-        System.out.println("\nparalysis");
-        result = s.simpleDiagnose("paralysis");
-        printMatrix(result);
-        String[] coisa = {"yellow_tong","paralysis"};
-        s.multipleDiagnose(coisa);
+        printMatrix(s.diagnose("severe_anger"));
+
+        System.out.println("============ Diagnóstico ============");
+        System.out.println("paralysis");
+        printMatrix(s.diagnose("paralysis"));
+
+        System.out.println("============ MultDiagnóstico ============");
+        String[] sintomas = {"history_bacteria", "chest_pain"};
+        printMatrix(s.diagnose(sintomas));
     }
 }

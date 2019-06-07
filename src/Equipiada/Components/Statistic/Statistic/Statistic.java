@@ -102,7 +102,7 @@ public class Statistic implements IStatistic {
      * @param symptom sintomas
      * @return returns a String matrix with diseases and probabilities
      */
-    public String[][] simpleDiagnose(String symptom) {
+    public String[][] diagnose(String symptom) {
         float[] combined = new float[unique.length + 1];
 
         // Percorre e acha o sintoma, olha a coluna dele.
@@ -124,15 +124,37 @@ public class Statistic implements IStatistic {
 
         return stringCombined;
     }
-    private int scan(String[] s, int pos){
-        for(int a = 0; a < attributes.length)
-    }
 
-    public String[][] multipleDiagnose(String[] symptoms) {
-        float[] combined = new float[unique.length + 1];
-        System.out.println(scan(symptoms,0));
+    public String[][] diagnose(String[] symptoms) {
+        int[] combined = new int[unique.length + 1];
+        int[] posTab = new int[symptoms.length];
 
-        return null;
+        for (int a = 0; a < symptoms.length; a++) {
+            for (int b = 0; b < attributes.length; b++)
+                if (symptoms[a].equalsIgnoreCase(attributes[b]))
+                    posTab[a] = b;
+        }
+
+        for (String[] instance : instances) {
+            boolean linha = true;
+            for (int b : posTab)
+                if (instance[b].equals("f"))
+                    linha = false;
+            if (linha) {
+                combined[0]++;
+                for (int b = 0; b < unique.length; b++)
+                    if (unique[b].equalsIgnoreCase(instance[attributes.length - 1]))
+                        combined[b + 1]++;
+            }
+        }
+        String[][] stringCombined = new String[unique.length + 1][2];
+        stringCombined[0][0] = "total";
+        stringCombined[0][1] = "1,00";
+        for (int a = 0; a < unique.length; a++)
+            stringCombined[a + 1][0] = unique[a];
+        for (int a = 0; a < combined.length - 1; a++)
+            stringCombined[a + 1][1] = String.format("%.2f", (float) combined[a + 1] / combined[0]);
+        return stringCombined;
     }
 
     // Transforma absPercentage em String

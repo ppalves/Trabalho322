@@ -14,5 +14,7 @@ public interface IStatistic extends ITableProducerReceptacle {
 
     String[][] absolutePercentage();
 
-    String[][] simpleDiagnose(String symptom);
+    String[][] diagnose(String symptom);
+
+    String[][] diagnose(String[] symptoms);
 }
