@@ -8,12 +8,13 @@ import Equipiada.Templates.IDataSet.IDataSet;
 import Equipiada.Templates.IDoctor.IDoctor;
 import Equipiada.Templates.IPatient.IPatient;
 import Equipiada.Templates.Patient.Patient;
+//import Equipiada.Components.Dialogue.DialogueText;
 
 public class Main{
     public static void main(String[] args) {
         // Olá, seja bem vindo ao componente de Diálogos, vamos aprender a utlizar o componente.
         // Começando com os templates utilizados para Doutor e Paciente
-        String tablePath = "C:\\Users\\Micro\\IdeaProjects\\Statistic\\src\\zombie-health-spreadsheet-ml-training.csv";
+        String tablePath = "src/Equipiada/Templates/Tables/zombie-health-spreadsheet-ml-training.csv";
         IDataSet dataset = new DataSetComponent();
         dataset.setDataSource(tablePath);
 
@@ -25,9 +26,8 @@ public class Main{
 
         cDoctor.connect(aPatient);
 
-        // Agora para o diálogo, vamos começar colocando o caminho para a nossa database
-        String DialoguePath = "C:\\Users\\Micro\\Desktop\\Jaba\\Trabalho322\\src\\Equipiada\\Components\\Dialogue\\DialogueText\\DialogueText.txt";
-        Dialogue d = DialogueFactory.createDialogue(DialoguePath);
+        // Agora para o diálogo
+        Dialogue d = DialogueFactory.createDialogue();
 
         // Vamos conectar o atual paciente e doutor
         d.connect(aPatient,cDoctor);

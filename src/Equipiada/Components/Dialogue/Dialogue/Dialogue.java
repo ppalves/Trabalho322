@@ -40,7 +40,7 @@ public class Dialogue implements IDialogue {
     private String[] prepared;      //
     private String[] preMade;       //
 
-    public Dialogue(String path){
+    public Dialogue(){
         badditional = true;     //
         bvirose  = true;        //
         bidentifiers  = true;   // Cria novas variáveis
@@ -49,7 +49,7 @@ public class Dialogue implements IDialogue {
         doctor = null;          //
         /* **************************** Leitura de Arquivo **************************** */
         try {
-            FileReader arquivo = new FileReader(path);              //
+            FileReader arquivo = new FileReader("src/Equipiada/Components/Dialogue/DialogueText/DialogueText.txt");              //
             BufferedReader formatado = new BufferedReader(arquivo); // Leitores da
             String linha = formatado.readLine();                    // Database
             String[] buffer;                                        //

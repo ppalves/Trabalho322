@@ -16,7 +16,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        String tablePath = "C:\\Users\\Micro\\IdeaProjects\\Statistic\\src\\zombie-health-spreadsheet-ml-training.csv";
+        String tablePath = "src/Equipiada/Templates/Tables/zombie-health-spreadsheet-ml-training.csv";
         // Seja bem vindo! Vamos aprender a utilizar o Statistic!
         IDataSet dataset = new DataSetComponent();
         dataset.setDataSource(tablePath);
