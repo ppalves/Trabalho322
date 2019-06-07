@@ -41,8 +41,6 @@ public class Doctor implements IDoctor {
                 resultado[a] = "t";
         }
 
-        for(int i = 0; i < attributes.length-1; i++)
-            System.out.print(resultado[i]);
 
         for(int a = 0; a < instances.length; a++){
             linhaTrue = true;
@@ -52,7 +50,6 @@ public class Doctor implements IDoctor {
             }
             if(linhaTrue){
                 /* Se der match, dá o diagnostico e para - preferência ao primeiro diagnóstico */
-                System.out.println(a);
                 patientN = a;
                 break;
             }

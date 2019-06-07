@@ -6,40 +6,39 @@ import Equipiada.Templates.ITableProducer.ITableProducer;
 import java.util.Arrays;
 
 /**
- * Statistic class for the Statistic Component, does the mathematical accounts necessary.
+ * Classe do componente estatístico da Equipiada, MC322.
+ * Leia o readme em https://github.com/ppalves/Trabalho322
  *
  * @author Andreis Purim
- * @version 1.0.0
+ * @version 1.0.1
  */
+
+/* ****************************************** STATISTIC ************************************ */
 public class Statistic implements IStatistic {
-    private String[] attributes;
-    private String[][] instances;
+    private String[] attributes;    // Parâmetros da tabela de doenças
+    private String[][] instances;   //
 
-    private int[][] frequency;
-    private int[] counter;
-    private float[][] relPercentage;
-    private float[][] absPercentage;
-    private String[] unique;
+    private int[][] frequency;          // Frequências
+    private int[] counter;              // Contador
+    private float[][] relPercentage;    // Porcentagem relativa
+    private float[][] absPercentage;    // Porcentagem absoluta
+    private String[] unique;            // Doenças Únicas
 
-    /**
-     * Initializer funcion, connects with table producer and generates frequency and percentage tables
-     *
-     * @param producer produtor da tabela
-     */
+    /* ************************** Connect ************************** */
+    /* Conecta com a tabela e trata dados                            */
     public void connect(ITableProducer producer) {
-        attributes = producer.requestAttributes();
-        instances = producer.requestInstances();
-        this.pfindUnique();
-        this.pfindFrequencies();
-        this.percentage();
+        attributes = producer.requestAttributes(); // Pega atributos
+        instances = producer.requestInstances();   //
+        this.pfindUnique();      // Começa a tratar as tabelas
+        this.pfindFrequencies(); //
+        this.percentage();       //
     }
 
-    /**
-     * Runs across the diagnostic table, finds unique diseases;
-     */
+    /* ************************** FindUnique ************************** */
+    /* Acha o vetor de doenças únicas (não inclui "total"               */
     private void pfindUnique() {
-        int size = attributes.length;
-        String[] ordenado = new String[size];
+        int size = attributes.length;           //
+        String[] ordenado = new String[size];   //
 
         // Acha vetor de diagnosticos
         for (int a = 0; a < size; a++)
@@ -49,9 +48,11 @@ public class Statistic implements IStatistic {
         unique = Arrays.stream(ordenado).distinct().toArray(String[]::new);
 
         // Contador de N diagnósticos para cada doença
+        // Inicia com 0 (por precaução)
         counter = new int[unique.length + 1];
         for (int a = 0; a < counter.length; a++)
             counter[a] = 0;
+        // Começa a fazer a contagem total e de cada doença
         for (int a = 0; a < unique.length; a++)
             for (String[] instance : instances)
                 if (unique[a].equals(instance[attributes.length - 1])) {
@@ -59,10 +60,21 @@ public class Statistic implements IStatistic {
                     counter[a + 1]++;
                 }
     }
+    // Transforma Uniques em String
+    public String[][] findUnique() {
+        // Inicia
+        String[][] uniques = new String[unique.length + 1][2];
+        uniques[0][0] = "total";
+        // Preenche coluna 1, e depois coluna 2
+        for (int a = 0; a < unique.length; a++)
+            uniques[a + 1][0] = unique[a];
+        for (int a = 0; a < counter.length; a++)
+            uniques[a][1] = Integer.toString(counter[a]);
+        return uniques;
+    }
 
-    /**
-     * Finds simptoms frequencies by disease;
-     */
+    /* ************************** FindFrequencies ************************** */
+    /* Conta na tabela a frequência de doenças por diagnóstico               */
     private void pfindFrequencies() {
         frequency = new int[unique.length + 1][attributes.length - 1];
 
@@ -81,12 +93,25 @@ public class Statistic implements IStatistic {
                             frequency[a + 1][c]++;
                         }
     }
+    // Frequências para String
+    public String[][] findFrequency() {
+        // Inicia
+        String[][] frequencies = new String[unique.length + 1][attributes.length];
+        frequencies[0][attributes.length - 1] = "total";
+        // Coluna 1 e 2;
+        for (int a = 0; a < (unique.length + 1); a++) {
+            for (int b = 0; b < attributes.length - 1; b++)
+                frequencies[a][b] = Integer.toString(frequency[a][b]);
+            if (a > 0)
+                frequencies[a][attributes.length - 1] = unique[a - 1];
+        }
+        return frequencies;
+    }
 
-
-    /**
-     * Finds  relative and absolute percentage (this is quite useful
-     */
+    /* ************************** FindPercentage ************************** */
+    /* Calcula porcentagem relativa e absoluta                              */
     private void percentage() {
+        // Cria tabelas e divide elas pelo total;
         absPercentage = new float[frequency.length][(frequency[0]).length];
         relPercentage = new float[unique.length + 1][attributes.length];
         for (int a = 0; a < (unique.length + 1); a++)
@@ -95,68 +120,6 @@ public class Statistic implements IStatistic {
                 relPercentage[a][b] = ((float) frequency[a][b] / frequency[0][b]);
             }
     }
-
-    /**
-     * Give me a symptom and I'll give you a probability table
-     *
-     * @param symptom sintomas
-     * @return returns a String matrix with diseases and probabilities
-     */
-    public String[][] diagnose(String symptom) {
-        float[] combined = new float[unique.length + 1];
-
-        // Percorre e acha o sintoma, olha a coluna dele.
-        for (int a = 0; a < attributes.length; a++)
-            if (symptom.equals(attributes[a])) {
-                for (int b = 1; b < (unique.length + 1); b++)
-                    combined[b - 1] = absPercentage[b][a] / absPercentage[0][a];
-                break;
-            }
-
-        // Combina em uma string
-        String[][] stringCombined = new String[unique.length + 1][2];
-        stringCombined[0][0] = "total";
-        stringCombined[0][1] = "1,00";
-        for (int a = 0; a < unique.length; a++)
-            stringCombined[a + 1][0] = unique[a];
-        for (int a = 0; a < combined.length - 1; a++)
-            stringCombined[a + 1][1] = String.format("%.2f", combined[a]);
-
-        return stringCombined;
-    }
-
-    public String[][] diagnose(String[] symptoms) {
-        int[] combined = new int[unique.length + 1];
-        int[] posTab = new int[symptoms.length];
-
-        for (int a = 0; a < symptoms.length; a++) {
-            for (int b = 0; b < attributes.length; b++)
-                if (symptoms[a].equalsIgnoreCase(attributes[b]))
-                    posTab[a] = b;
-        }
-
-        for (String[] instance : instances) {
-            boolean linha = true;
-            for (int b : posTab)
-                if (instance[b].equals("f"))
-                    linha = false;
-            if (linha) {
-                combined[0]++;
-                for (int b = 0; b < unique.length; b++)
-                    if (unique[b].equalsIgnoreCase(instance[attributes.length - 1]))
-                        combined[b + 1]++;
-            }
-        }
-        String[][] stringCombined = new String[unique.length + 1][2];
-        stringCombined[0][0] = "total";
-        stringCombined[0][1] = "1,00";
-        for (int a = 0; a < unique.length; a++)
-            stringCombined[a + 1][0] = unique[a];
-        for (int a = 0; a < combined.length - 1; a++)
-            stringCombined[a + 1][1] = String.format("%.2f", (float) combined[a + 1] / combined[0]);
-        return stringCombined;
-    }
-
     // Transforma absPercentage em String
     public String[][] absolutePercentage() {
         String[][] aper = new String[unique.length + 1][attributes.length];
@@ -183,27 +146,64 @@ public class Statistic implements IStatistic {
         return rper;
     }
 
-    // Frequencies to string
-    public String[][] findFrequency() {
-        String[][] frequencies = new String[unique.length + 1][attributes.length];
-        frequencies[0][attributes.length - 1] = "total";
-        for (int a = 0; a < (unique.length + 1); a++) {
-            for (int b = 0; b < attributes.length - 1; b++)
-                frequencies[a][b] = Integer.toString(frequency[a][b]);
-            if (a > 0)
-                frequencies[a][attributes.length - 1] = unique[a - 1];
-        }
-        return frequencies;
-    }
+    /* *************************** Diagnósticos *************************** */
+    /* Faz o diagnóstico para uma doença simples, mais eficiente            */
+    public String[][] diagnose(String symptom) {
+        float[] combined = new float[unique.length + 1];
 
-    // Unique to String
-    public String[][] findUnique() {
-        String[][] uniques = new String[unique.length + 1][2];
-        uniques[0][0] = "total";
+        // Percorre a percentagem relativa, olha a coluna dele.
+        for (int a = 0; a < attributes.length; a++)
+            if (symptom.equals(attributes[a])) {
+                for (int b = 1; b < (unique.length + 1); b++)
+                    combined[b - 1] = absPercentage[b][a] / absPercentage[0][a];
+                break;
+            }
+
+        // Combina em uma string
+        String[][] stringCombined = new String[unique.length + 1][2];
+        stringCombined[0][0] = "total";
+        stringCombined[0][1] = "1,00";
         for (int a = 0; a < unique.length; a++)
-            uniques[a + 1][0] = unique[a];
-        for (int a = 0; a < counter.length; a++)
-            uniques[a][1] = Integer.toString(counter[a]);
-        return uniques;
+            stringCombined[a + 1][0] = unique[a];
+        for (int a = 0; a < combined.length - 1; a++)
+            stringCombined[a + 1][1] = String.format("%.2f", combined[a]);
+
+        return stringCombined;
+    }
+    /* Faz o diagnóstico para um vetor de doenças, mais eficiente            */
+    public String[][] diagnose(String[] symptoms) {
+        int[] combined = new int[unique.length + 1];
+        int[] posTab = new int[symptoms.length];
+
+        // Acha a posição dos sintomas nos atributos
+        for (int a = 0; a < symptoms.length; a++) {
+            for (int b = 0; b < attributes.length; b++)
+                if (symptoms[a].equalsIgnoreCase(attributes[b]))
+                    posTab[a] = b;
+        }
+
+        // Vai procurar uma tabela onde eles são verdadeiros
+        for (String[] instance : instances) {
+            boolean linha = true;
+            for (int b : posTab)
+                if (instance[b].equals("f"))
+                    linha = false;
+            if (linha) {
+                // Se achou, incrementa o total e o da doença no combined
+                combined[0]++;
+                for (int b = 0; b < unique.length; b++)
+                    if (unique[b].equalsIgnoreCase(instance[attributes.length - 1]))
+                        combined[b + 1]++;
+            }
+        }
+        // Junta em uma String
+        String[][] stringCombined = new String[unique.length + 1][2];
+        stringCombined[0][0] = "total";
+        stringCombined[0][1] = "1,00";
+        for (int a = 0; a < unique.length; a++)
+            stringCombined[a + 1][0] = unique[a];
+        for (int a = 0; a < combined.length - 1; a++)
+            stringCombined[a + 1][1] = String.format("%.2f", (float) combined[a + 1] / combined[0]);
+        return stringCombined;
     }
 }
