@@ -5,7 +5,7 @@ import Equipiada.Components.Statistic.StatisticFactory.StatisticFactory;
 import Equipiada.Templates.DataSetComponent.DataSetComponent;
 import Equipiada.Templates.IDataSet.IDataSet;
 
-public class Main {
+public class StatisticExample {
 
     private static void printMatrix(String[][] s) {
         for (String[] strings : s) {

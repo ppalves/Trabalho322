@@ -12,7 +12,8 @@ import java.io.IOException;
 /**
  * Componente de diálogo para o trabalho de MC322 - Equipiada
  * @author Andreis Purim
- * @version V1.0.0
+ * @version V1.0.1
+ * Adaptado para o cógigo do Leonardo
  */
 
 /* **************************************** DIALOGUE ******************************* */
@@ -110,7 +111,8 @@ public class Dialogue implements IDialogue {
             result.append("]");         //
             if(spacers < 0)             // Ajusta espaçamento
                 if(speaker == 0)        //
-                    result.append(" ".repeat(Math.max(0, -spacers)));
+                    for(int a = 0; a < -spacers; a++)
+                        result.append(" ");
             result.append(": ");
         }
         result.append(s);                           //
@@ -168,8 +170,7 @@ public class Dialogue implements IDialogue {
     /* ************************** Pergunta ************************** */
     public String questions(String question){
         int trand = rand.nextInt(100);
-        System.out.println(composeSymptoms(DataQuestion[trand%(DataQuestion.length)],question));
-        return question;
+        return composeSymptoms(DataQuestion[trand%(DataQuestion.length)],question);
     }
 
     /* ************************** Compõe Resposta ************************** */
@@ -193,8 +194,7 @@ public class Dialogue implements IDialogue {
     /* ************************** Responde ************************** */
     public String answer(String answer){
         int trand = rand.nextInt(100);
-        System.out.println(composeAnswer(DataAnswer[trand%(DataAnswer.length)],answer));
-        return answer;
+        return composeAnswer(DataAnswer[trand%(DataAnswer.length)],answer);
     }
 
     /* ************************** Diagnostico ************************** */
@@ -220,7 +220,6 @@ public class Dialogue implements IDialogue {
             }
         }
         result.append(".");
-        System.out.println(compose(result.toString(),1));
-        return disease;
+        return compose(result.toString(),1);
     }
 }

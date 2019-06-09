@@ -1,6 +1,4 @@
-﻿@Equipiada MC322
- 
-Base para o Componente Dialogue
+﻿Base para o Componente Dialogue
 Se você quiser adicionar aqui, simplesmente vá separando e adicionando frases
 utilizando o separador --.
 A ordem da máquina de estados é a seguinte:
@@ -8,39 +6,39 @@ Teátricos: 1 para o Paciente e 2 para o Doutor
 Quebra Gelo: 1 para quem começar a conversa, 2 para quem responder
 Inicio: 05 para o Doutor, 06 para o Paciente, 07 para o Doutor
 Entrevista, 08 e 10 para o Doutor, 9 para o Paciente
- 
+
 ================================== Teatricos ==================================
 Acoes de teatro
- 
+
 01. *Tosse*--*Pigarro*--*Espirra*
 02. *Pigarro*--*Limpa garganta*
- 
+
 ================================= Quebra-Gelo =================================
 Quebra-gelo, para o comeco da conversa
- 
-03. Bom dia, tudo bem?--Bom dia, tudo certo?--Boa manha.--Boa noite.--Eai, meu encapsulado?
-04. Bom dia, tudo certo.--Bom dia, tudo otimo.--Fala, meu instanciado.--Boa noite.
- 
+
+03. Bom dia, tudo bem?--Bom dia, tudo certo?--Boa manha.--Boa noite.--Eai, meu encapsulado?--Faaala meu morto vivo
+04. Bom dia, tudo certo.--Bom dia, tudo otimo.--Fala, meu instanciado.--Boa noite.--Bem bem eh muito forte, ne?
+
 =================================== Inicio ====================================
 Inicio da Entrevista, quebra gelo
- 
-05. Vamos comecar--E sua primeira vez aqui?--Me fale dos seus problemas.
-06. Eu estou sentindo uma dorzinha.--Ando meio esquisto.--Sei la, minha mae me mandou aqui.
-07. Ok, vamos la.--Vamos que vamos.
- 
+
+05. Vamos comecar.--E sua primeira vez aqui?--Me fale dos seus problemas.--O que te aflinge, meu transformado?--E a vida? Ou melhor a morte * ba dunts*--Tudo la em cima?
+06. Eu estou sentindo uma dorzinha.--Ando meio esquisto.--Sei la, minha mae me mandou aqui.--Vim fazer uma consulta de rotina --Se eu encosto aqui doi --Tava sentindo uma dor naquele lugar.
+07. Ok, vamos la.--Vamos que vamos.--Suave, bora pra cima-- Bora la.-- Quem dorme em serviço é humano.-- Show, vamos começar.
+
 ================================ Entrevista ===================================
 Perguntas e respostas para a entrevista.
- 
-08. Sua familia tem historico de--Voce tem sentido--Voce tem
-09. Talvez--Acho que
-10. E--Acho que seja--Talvez seja--Os dados indicam
- 
+
+08. Sua familia tem historico de--Voce tem sentido--Voce tem--Em algum momento voce ja percebeu--Diga me, em relação a
+09. Talvez--Acho que--Hmm... pensando bem...--Olha, agora que voce perguntou
+10. E--Acho que seja--Talvez seja--Os dados indicam--Com base nas minhas analises--Pelo que aprendi na faculdade--Baseado na minha bola de cristal
+
 =============================== Arrumadores ===================================
 Os arrumadores servem para interpretar tipos esperados de resposta
 O 11 e 12 interpretação de respostas, 13 para doenças existentes e 14 para
 suas versões em virose.
- 
-11. t--yes--sim
-12. f--no--não--nao
+
+11. t--yes--sim--s--yep
+12. f--no--não--nao--nope-n
 13. bacterial_infection--bite_deficit--fights--nothing--viral_infection
-14.  virose bacterial-- mordida de virose-- luta de virose-- nada mas e virose-- virose
+14.  virose bacterial-- mordida de virose-- luta de virose-- nada, mas e virose-- virose

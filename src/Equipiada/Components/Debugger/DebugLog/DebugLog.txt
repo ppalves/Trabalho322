@@ -1,56 +1,22 @@
+
 ================================ PATIENT ================================
 --------------- METODOS ---------------
 public Equipiada.Templates.Patient.Patient.connect(Equipiada.Templates.ITableProducer.ITableProducer)
-public Equipiada.Templates.Patient.Patient.getNome()
 public Equipiada.Templates.Patient.Patient.ask(java.lang.String)
+public Equipiada.Templates.Patient.Patient.getNome()
 public Equipiada.Templates.Patient.Patient.finalAnswer(java.lang.String)
 
 --------------- VARIAVEIS ---------------
 class java.lang.String nome: Guilherme
-int patientN: 14
+int patientN: 8
 interface Equipiada.Templates.ITableProducer.ITableProducer producer: 
 class [Ljava.lang.String; attributes: [paralysis , yellow_tong , member_loss , chest_pain , trembling_finger , severe_anger , history_bacteria , diagnostic]
-class [Ljava.lang.String; patientInstance: [f , t , f , f , t , f , t , bite_deficit]
+class [Ljava.lang.String; patientInstance: [f , t , f , t , f , f , f , bacterial_infection]
 
 --------------- DEBUG ---------------
-diseaseHolder: 14
-symptomsHolder:	ftfftft
-TableLine:		ftfftft
-================================ DOCTOR ================================
---------------- METODOS ---------------
-public Equipiada.Templates.Doctor.Doctor.connect(Equipiada.Templates.IResponder.IResponder)
-public Equipiada.Templates.Doctor.Doctor.connect(Equipiada.Templates.ITableProducer.ITableProducer)
-public Equipiada.Templates.Doctor.Doctor.getNome()
-public Equipiada.Templates.Doctor.Doctor.startInterview()
-
---------------- VARIAVEIS ---------------
-class java.lang.String nome: Asdrubal
-int patientN: 0
-interface Equipiada.Templates.ITableProducer.ITableProducer producer: 
-interface Equipiada.Templates.IResponder.IResponder responder: null
-
---------------- DEBUG ---------------
-diseaseHolder: 0
-resultHolder:	
-TableLine:		ttfffff
-================================ PATIENT ================================
---------------- METODOS ---------------
-public Equipiada.Templates.Patient.Patient.connect(Equipiada.Templates.ITableProducer.ITableProducer)
-public Equipiada.Templates.Patient.Patient.getNome()
-public Equipiada.Templates.Patient.Patient.finalAnswer(java.lang.String)
-public Equipiada.Templates.Patient.Patient.ask(java.lang.String)
-
---------------- VARIAVEIS ---------------
-class java.lang.String nome: Guilherme
-int patientN: 10
-interface Equipiada.Templates.ITableProducer.ITableProducer producer: 
-class [Ljava.lang.String; attributes: [paralysis , yellow_tong , member_loss , chest_pain , trembling_finger , severe_anger , history_bacteria , diagnostic]
-class [Ljava.lang.String; patientInstance: [f , t , t , f , f , f , t , bite_deficit]
-
---------------- DEBUG ---------------
-diseaseHolder: 10
-symptomsHolder:	fttffft
-TableLine:		fttffft
+diseaseHolder: 8
+symptomsHolder:	ftftfff
+TableLine:		ftftfff
 ================================ DOCTOR ================================
 --------------- METODOS ---------------
 public Equipiada.Templates.Doctor.Doctor.connect(Equipiada.Templates.IResponder.IResponder)

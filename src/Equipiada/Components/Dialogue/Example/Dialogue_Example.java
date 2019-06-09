@@ -10,7 +10,7 @@ import Equipiada.Templates.IPatient.IPatient;
 import Equipiada.Templates.Patient.Patient;
 //import Equipiada.Components.Dialogue.DialogueText;
 
-public class Main{
+public class Dialogue_Example {
     public static void main(String[] args) {
         // Olá, seja bem vindo ao componente de Diálogos, vamos aprender a utlizar o componente.
         // Começando com os templates utilizados para Doutor e Paciente
@@ -43,14 +43,14 @@ public class Main{
 
         // Para fins de exemplo, estou fazendo as questões e respostas na main!
         // Vamos mandar a pergunta ao paciente;
-        d.questions("paralysis");
+        System.out.println(d.questions("paralysis"));
         // Vamos responder que sim, veja que ele entende se eu responder sim, t e yes
-        d.answer("yes");
+        System.out.println(d.answer("yes"));
         // Vamos diagnosticar com bacterial "virose"
-        d.diagnose("bacterial_infection");
+        System.out.println(d.diagnose("bacterial_infection"));
         // Vamos tentar uma doença nova composta
-        d.diagnose("marconites_infecciosa");
+        System.out.println(d.diagnose("marconites_infecciosa"));
         //Ou uma doença simples
-        d.diagnose("marconites");
+        System.out.println(d.diagnose("marconites"));
     }
 }

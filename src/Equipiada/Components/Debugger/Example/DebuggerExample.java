@@ -8,7 +8,7 @@ import Equipiada.Templates.IDoctor.IDoctor;
 import Equipiada.Templates.IPatient.IPatient;
 import Equipiada.Templates.Patient.Patient;
 
-public class Main {
+public class DebuggerExample {
     public static void main(String[] args) {
         String tablePath = "src/Equipiada/Templates/Tables/zombie-health-spreadsheet-ml-training.csv";
         IDataSet dataset = new DataSetComponent();
