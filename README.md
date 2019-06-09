@@ -1,6 +1,8 @@
 ﻿![Alt text](Equipiada.jpg?raw=true "Equipiada Inc.")
-# Componente `Statistic`
+Equipiada é uma das equipes para o trabalho de MC322 - Programação Orientada a Objeto 1s2019 formada por Marcos Diaz, Andreis Purim, Pedro Pupo e Guilherme Ramirez. Nosso objetivo é fazer componentes bons, mas simples de serem usados. Aqui estão os componentes feitos:
 
+# Componente `Statistic`
+"
 Campo | Valor
 ----- | -----
 Classe | Components.Statistic

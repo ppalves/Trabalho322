@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Statistic:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Statistic_jar</output-path>
+    <root id="archive" name="Statistic.jar">
+      <element id="module-output" name="Trabalho322" />
+    </root>
+  </artifact>
+</component>

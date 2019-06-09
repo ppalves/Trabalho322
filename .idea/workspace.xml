@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Statistic:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2ff401c6-ad8d-4cab-954c-920b23cc3a3f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Trabalho322_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Debugger_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Dialogue_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/PCA_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Statistic_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Equipiada/Components/Debugger.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Equipiada/Components/Dialogue.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Equipiada/Components/PCA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Equipiada/Components/Statistic.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Trabalho322_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Components/Debugger/DebugLog/DebugLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Components/Debugger/DebugLog/DebugLog.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Components/Debugger/Example/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Components/Dialogue/Dialogue/Dialogue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Components/Dialogue/Dialogue/Dialogue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Components/Dialogue/Example/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Components/Statistic/Example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Components/Dialogue/DialogueText/DialogueText.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Components/Dialogue/DialogueText/DialogueText.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trabalho322/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/META-INF/Trabalho322.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Equipiada/Components/Debugger/DebugLog/DebugLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Equipiada/Components/Debugger/DebugLog/DebugLog.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Equipiada/Components/Debugger/Example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Equipiada/Components/Debugger/Example/DebuggerExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Equipiada/Components/Dialogue/Dialogue/Dialogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Equipiada/Components/Dialogue/Dialogue/Dialogue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Equipiada/Components/Dialogue/Example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Equipiada/Components/Dialogue/Example/Dialogue_Example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Equipiada/Components/Statistic/Example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Equipiada/Components/Statistic/Example/StatisticExample.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,7 +35,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -97,8 +103,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,21 +110,96 @@
               <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
               <item name="Trabalho322" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trabalho322" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trabalho322" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trabalho322" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Debugger_jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trabalho322" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Dialogue_jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trabalho322" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="PCA_jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trabalho322" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Statistic_jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trabalho322" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trabalho322" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="Trabalho322" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trabalho322" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trabalho322" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Equipiada" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trabalho322" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Equipiada" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Equipiada/Components/Dialogue" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Equipiada/Components" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Micro\Desktop\Jaba\Trabalho322\src\Equipiada\Components" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Micro\Desktop\Jaba\Trabalho322\src\Equipiada\Components\Dialogue\DialogueText" />
       <recent name="C:\Users\Micro\Desktop\Jaba\Trabalho322\src\Equipiada\Components\Dialogue\Dialogue" />
@@ -138,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.DebuggerExample">
     <configuration name="DebuggerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Equipiada.Components.Debugger.Example.DebuggerExample" />
       <module name="Trabalho322" />
@@ -180,8 +259,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StatisticExample" />
         <item itemvalue="Application.DebuggerExample" />
+        <item itemvalue="Application.StatisticExample" />
         <item itemvalue="Application.Dialogue_Example" />
       </list>
     </recent_temporary>
@@ -202,7 +281,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2881997" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2927383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -521,9 +600,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Dialogue/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Dialogue/META-INF/MANIFEST.MF" />
     <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Debugger/DebugLog/DebugLog.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-163" />
@@ -565,7 +642,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>Trabalho322:jar</last-edited>
+          <last-edited>Statistic:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
