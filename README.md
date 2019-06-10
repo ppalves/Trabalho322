@@ -2,11 +2,11 @@
 Equipiada é uma das equipes para o trabalho de MC322 - Programação Orientada a Objeto 1s2019 formada por Marcos Diaz, Andreis Purim, Pedro Pupo e Guilherme Ramirez. Nosso objetivo é fazer componentes bons, mas simples de serem usados. Aqui estão os componentes feitos:
 
 # Componente `Statistic`
-"
+
 Campo | Valor
 ----- | -----
-Classe | Components.Statistic
-Autores | Andreis
+Classe | Equipiada.Components.Statistic.Statistic
+Autores | Andreis Purim
 Objetivo | Fazer uma análise estatísitca do DataSet. Utilizar probabilidades combinadas para encontrar os sintomas e doenças mais prováveis.
 Interface | IStatistics
 
@@ -37,7 +37,7 @@ simpleDiagnose | Dado um sintoma, retorna uma matriz com as doenças e as probab
 
 Campo | Valor
 ----- | -----
-Classe | Components.PCA_Analysis
+Classe | Equipiada.Components.PCA_Analysis.PCA_Analysis
 Autores | Marcos Diaz
 Objetivo | Interface para o uso de Principal Component Analysis, um método que proporciona a redução da dimensão dos dados do ZombieHealth, de modo a permitir melhor visualizacao deles. O principal objetivo de proporcionar melhor visualizacao é facilitar a busca por padroes entre as doencas. Assim, o gráfico das duas dimensões pode ser interpretado como uma representação da proximidade de sintomas entre os casos de doenças, ou seja, doenças diferentes com agrupamentos mais próximos tem maior chance de serem diagnosicados trocadas.
 
@@ -61,8 +61,8 @@ showPlot | Abre o gráfico numa janela
 
 Campo | Valor
 ----- | -----
-Classe | Components.Debbuger
-Autores | Andreis
+Classe | Equipiada.Components.Debbuger.Debbuger
+Autores | Guilherme Ramirez
 Objetivo | IDebugger é uma interface que irá verificar o diagnóstico do paciente e do doutor, verificar possíveis incongruências e retornar strings de uma forma mais fácil de debuggar o seu código.
 Interface | IDebbuger.java
 
@@ -95,8 +95,8 @@ debugDiagnosis | Retorna string de debug da diagnose
 
 Campo | Valor
 ----- | -----
-Classe | Components.Dialogue
-Autores | Andreis
+Classe | Equipiada.Components.Dialogue.Dialogue
+Autores | Andreis Purim
 Objetivo | Faz dialogos estúpidos, mas melhores.
 Interface | IRealistic_Dialogue
 
@@ -123,3 +123,5 @@ virose | Simplesmente troca todas as doenças conhecidas por algum tipo de viros
 identifiers | Faz as conversas como um script de teatro, começando com o Casting, os nomes identificados [Doutor]: e adiciona eventuais Ações.
 questions | Função padrão para utilizar o componente, basta colocar a pergunta na String e ele irá interpretar (pode ser apenas o sintoma, pode ser uma frase, etc...
 answers | Função padrão para resposta, basta colocar a resposta no campo da String e ele irá interpretar e transformar. Ambos questions e answers já imprimem por padrão e te retornam apenas a versão simplificada da resposta.
+
+
