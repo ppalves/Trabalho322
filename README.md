@@ -49,6 +49,14 @@ public interface IPCA_Analysis {
 }
 ~~~
 ﻿![Alt text](pca_annotation.jpg?raw=true "pca_annotation")
+#######AVISO###### O componente só funciona em Linux.
+O uso do script de Python3 que realiza o PCA depende de algumas dependências que podem ser instaladas digitando, numa Shell Linux: 
+~~~~
+chmod u+x python3_configure.sh
+./python3_configure.sh
+~~~~
+O scritp também fornece o PATH de sua isntalação do python3.
+As dependências estão disponíveis no script caso o usuário queira instalá-las manualmente.
  
 ### Interface `PCA_Analysis`
 Reduz as dimensões do conjunto de dados e desenha um gŕafico dos componentes principais (Dimensões ciradas nas quais o conjunto de dados apresenta maior variação).
