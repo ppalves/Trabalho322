@@ -47,10 +47,11 @@ public class StatisticExample {
         printMatrix(s.diagnose("severe_anger"));
 
         System.out.println("============ Diagnóstico ============");
-        System.out.println("paralysis");
-        printMatrix(s.diagnose("paralysis"));
+        System.out.println("yellow_tong");
+        printMatrix(s.diagnose("yellow_tong"));
 
         System.out.println("============ MultDiagnóstico ============");
+        System.out.println("history_bacteria e chest_pain");
         String[] sintomas = {"history_bacteria", "chest_pain"};
         printMatrix(s.diagnose(sintomas));
     }

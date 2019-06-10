@@ -5,8 +5,8 @@ import numpy as np
 from sklearn.decomposition import PCA
 
 #create Pandas DataFrame
-dataset = sys.argv[1]
-zD = pd.read_csv("zombieData/"+dataset)
+datasetPATH = sys.argv[1]
+zD = pd.read_csv(datasetPATH)
 
 #features to nums
 toNum = lambda b: 0 if b=="f" else 1
@@ -52,7 +52,8 @@ for i in diseases:
 ax.legend()
 
 #plt.show()
-name = (dataset.split("."))[0]
+name = (datasetPATH.split("."))[0]
 fig.set_size_inches(10.5, 6.5)
-fig.savefig(name+'.jpeg')
+fig.savefig(name+'.jpg')
 
+print(1)

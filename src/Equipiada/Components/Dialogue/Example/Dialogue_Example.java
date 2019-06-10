@@ -8,11 +8,9 @@ import Equipiada.Templates.IDataSet.IDataSet;
 import Equipiada.Templates.IDoctor.IDoctor;
 import Equipiada.Templates.IPatient.IPatient;
 import Equipiada.Templates.Patient.Patient;
-//import Equipiada.Components.Dialogue.DialogueText;
 
 public class Dialogue_Example {
     public static void main(String[] args) {
-        // Olá, seja bem vindo ao componente de Diálogos, vamos aprender a utlizar o componente.
         // Começando com os templates utilizados para Doutor e Paciente
         String tablePath = "src/Equipiada/Templates/Tables/zombie-health-spreadsheet-ml-training.csv";
         IDataSet dataset = new DataSetComponent();
