@@ -56,7 +56,7 @@ O uso do script de Python3 que realiza o PCA depende de algumas dependências qu
 chmod u+x python3_configure.sh
 ./python3_configure.sh
 ~~~~
-O scritp também fornece o PATH de sua isntalação do python3.
+O scritp também fornece o PATH de sua instalação do python3.
 As dependências estão disponíveis no script caso o usuário queira instalá-las manualmente.
  
 ### Interface `PCA_Analysis`
