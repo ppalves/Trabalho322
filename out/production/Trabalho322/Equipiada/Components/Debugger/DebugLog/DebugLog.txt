@@ -73,6 +73,22 @@ TableLine:		ttfffff
 --------------- METODOS ---------------
 public Equipiada.Templates.Patient.Patient.connect(Equipiada.Templates.ITableProducer.ITableProducer)
 public Equipiada.Templates.Patient.Patient.getNome()
+<<<<<<< HEAD
+public Equipiada.Templates.Patient.Patient.ask(java.lang.String)
+public Equipiada.Templates.Patient.Patient.finalAnswer(java.lang.String)
+
+--------------- VARIAVEIS ---------------
+class java.lang.String nome: Guilherme
+int patientN: 1
+interface Equipiada.Templates.ITableProducer.ITableProducer producer: 
+class [Ljava.lang.String; attributes: [paralysis , yellow_tong , member_loss , chest_pain , trembling_finger , severe_anger , history_bacteria , diagnostic]
+class [Ljava.lang.String; patientInstance: [f , t , f , f , f , f , f , bacterial_infection]
+
+--------------- DEBUG ---------------
+diseaseHolder: 1
+symptomsHolder:	ftfffff
+TableLine:		ftfffff
+=======
 public Equipiada.Templates.Patient.Patient.finalAnswer(java.lang.String)
 public Equipiada.Templates.Patient.Patient.ask(java.lang.String)
 
@@ -87,6 +103,7 @@ class [Ljava.lang.String; patientInstance: [f , t , t , f , f , f , t , bite_def
 diseaseHolder: 10
 symptomsHolder:	fttffft
 TableLine:		fttffft
+>>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
 ================================ DOCTOR ================================
 --------------- METODOS ---------------
 public Equipiada.Templates.Doctor.Doctor.connect(Equipiada.Templates.IResponder.IResponder)
