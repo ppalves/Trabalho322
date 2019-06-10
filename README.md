@@ -49,7 +49,8 @@ public interface IPCA_Analysis {
 }
 ~~~
 ﻿![Alt text](pca_annotation.jpg?raw=true "pca_annotation")
-#######AVISO###### O componente só funciona em Linux.
+###### AVISO ######
+O componente só funciona em Linux.
 O uso do script de Python3 que realiza o PCA depende de algumas dependências que podem ser instaladas digitando, numa Shell Linux: 
 ~~~~
 chmod u+x python3_configure.sh
