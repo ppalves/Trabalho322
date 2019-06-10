@@ -38,16 +38,13 @@ simpleDiagnose | Dado um sintoma, retorna uma matriz com as doenças e as probab
 Campo | Valor
 ----- | -----
 Classe | Components.PCA_Analysis
-Autores | Marcos
-Objetivo | Interface para o uso de Principal Component Analysis para reducao da dimensao dos dados do ZombieHealth, de modo a permitir melhor visualizacao deles. O principal objetivo de proporcionar melhor visualizacao é facilitar a busca por padroes entre as doencas. >`
+Autores | Marcos Diaz
+Objetivo | Interface para o uso de Principal Component Analysis, um método que proporciona a redução da dimensão dos dados do ZombieHealth, de modo a permitir melhor visualizacao deles. O principal objetivo de proporcionar melhor visualizacao é facilitar a busca por padroes entre as doencas. Assim, o gráfico das duas dimensões pode ser interpretado como uma representação da proximidade de sintomas entre os casos de doenças, ou seja, doenças diferentes com agrupamentos mais próximos tem maior chance de serem diagnosicados trocadas.
 
 ~~~
-public interface PCA_Analysis extends IDataSet, ITableProducerReceptacle{
-    //retorna um vetor com a variacao dos componentes principais em ordem decrescente
-    public float[] principal_components (int nDimensions);
-    //nDimesnions = 1: mostra a distribuicao das doencas ao longo do componente de maior variacao
-    //nDimensions = 2: mostra um plano com a distribuicao das doencas ao longo dois dois componentes de maoir variacao
-    public void visualize (int nDimensions);
+public interface IPCA_Analysis {
+    public void pca ();
+    public void showPlot();
 }
 ~~~
 
@@ -56,8 +53,8 @@ Reduz as dimensões do conjunto de dados e desenha um gŕafico dos componentes p
 
 Método | Objetivo
 -------| --------
-principal_components | Retorna um vetor com a variacao dos componentes principais em ordem decrescente
-visualize | Desenha um gŕafico da distribuição dos dados ao longo de uma ou duas das maiores componentes principais
+pca | Realiza a Análise de Componentes Principais (PCA) e salva um gráfico das duas principais componentes
+showPlot | Abre o gráfico numa janela 
 
 
 # Componente `Debbuger`
