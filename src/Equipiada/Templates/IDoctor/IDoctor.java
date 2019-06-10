@@ -5,4 +5,5 @@ import Equipiada.Templates.IResponderReceptacle.IResponderReceptacle;
 import Equipiada.Templates.ITableProducerReceptacle.ITableProducerReceptacle;
 
 public interface IDoctor extends IEnquirer, IResponderReceptacle, ITableProducerReceptacle {
+	public String getNome();
 }
