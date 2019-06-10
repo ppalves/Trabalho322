@@ -48,8 +48,8 @@ public interface IPCA_Analysis {
     public void showPlot();
 }
 ~~~
-﻿![Alt text] (pca_annotation.jpg?raw=true)
-
+﻿![Alt text](pca_annotation.jpg?raw=true "pca_annotation")
+ 
 ### Interface `PCA_Analysis`
 Reduz as dimensões do conjunto de dados e desenha um gŕafico dos componentes principais (Dimensões ciradas nas quais o conjunto de dados apresenta maior variação).
 
