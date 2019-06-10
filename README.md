@@ -41,7 +41,7 @@ Campo | Valor
 Classe | Equipiada.Components.PCA_Analysis.PCA_Analysis
 Autores | Marcos Diaz
 Objetivo | Interface para o uso de Principal Component Analysis, um método que proporciona a redução da dimensão dos dados do ZombieHealth, de modo a permitir melhor visualizacao deles. O principal objetivo de proporcionar melhor visualizacao é facilitar a busca por padroes entre as doencas. Assim, o gráfico das duas dimensões pode ser interpretado como uma representação da proximidade de sintomas entre os casos de doenças, ou seja, doenças diferentes com agrupamentos mais próximos tem maior chance de serem diagnosicados trocadas.
-![alt text] (https://github.com/ppalves/Trabalho322/pca_annotation.jpg?)
+![alt text] (pca_annotation.jpg?raw=true)
 
 ~~~
 public interface IPCA_Analysis {
