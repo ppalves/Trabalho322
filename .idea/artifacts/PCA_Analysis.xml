@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PCA_Analysis">
+    <output-path>$PROJECT_DIR$/out/artifacts/PCA_Analysis</output-path>
+    <root id="archive" name="PCA_Analysis.jar">
+      <element id="dir-copy" path="$PROJECT_DIR$/src/Equipiada/Components/PCA_Analysis" />
+      <element id="dir-copy" path="$PROJECT_DIR$/src/Equipiada/Templates" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Debugger">
+    <output-path>$PROJECT_DIR$/out/artifacts/Debugger</output-path>
+    <root id="archive" name="Debugger.jar">
+      <element id="dir-copy" path="$PROJECT_DIR$/src/Equipiada/Templates" />
+      <element id="dir-copy" path="$PROJECT_DIR$/src/Equipiada/Components/Debugger" />
+    </root>
+  </artifact>
+</component>
