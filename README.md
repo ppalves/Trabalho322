@@ -41,7 +41,6 @@ Campo | Valor
 Classe | Equipiada.Components.PCA_Analysis.PCA_Analysis
 Autores | Marcos Diaz
 Objetivo | Interface para o uso de Principal Component Analysis, um método que proporciona a redução da dimensão dos dados do ZombieHealth, de modo a permitir melhor visualizacao deles. O principal objetivo de proporcionar melhor visualizacao é facilitar a busca por padroes entre as doencas. Assim, o gráfico das duas dimensões pode ser interpretado como uma representação da proximidade de sintomas entre os casos de doenças, ou seja, doenças diferentes com agrupamentos mais próximos tem maior chance de serem diagnosicados trocadas.
-![alt text] (pca_annotation.jpg?raw=true)
 
 ~~~
 public interface IPCA_Analysis {
@@ -49,7 +48,17 @@ public interface IPCA_Analysis {
     public void showPlot();
 }
 ~~~
-
+﻿![Alt text](pca_annotation.jpg?raw=true "pca_annotation")
+###### AVISO ######
+O componente só funciona em Linux.
+O uso do script de Python3 que realiza o PCA depende de algumas dependências que podem ser instaladas digitando, numa Shell Linux: 
+~~~~
+chmod u+x python3_configure.sh
+./python3_configure.sh
+~~~~
+O scritp também fornece o PATH de sua instalação do python3.
+As dependências estão disponíveis no script caso o usuário queira instalá-las manualmente.
+ 
 ### Interface `PCA_Analysis`
 Reduz as dimensões do conjunto de dados e desenha um gŕafico dos componentes principais (Dimensões ciradas nas quais o conjunto de dados apresenta maior variação).
 
@@ -124,5 +133,6 @@ identifiers | Faz as conversas como um script de teatro, começando com o Castin
 start | Impede que você inicie sem paciente e doutor.
 questions | Função padrão para utilizar o componente, basta colocar a pergunta na String e ele irá interpretar (pode ser apenas o sintoma, pode ser uma frase, etc...
 answer | Função padrão para resposta, basta colocar a resposta no campo da String e ele irá interpretar e transformar. Ambos questions e answers já imprimem por padrão e te retornam apenas a versão simplificada da resposta.
+
 
 

@@ -19,5 +19,10 @@ public class PCA_Example {
 		
 		//Mostra o grafico 
 		pca1.showPlot();
+		
+		//repeticao como outro dataSet
+		datasetPATH = "/home/marcos/Documents/3SEM/MC322/Trabalho322/PCA-Component/zombieData/zombie-health-spreadsheet-ml-training.csv";
+		PCA_Analysis pca2 = new PCA_Analysis(pythonPATH, scriptPATH, datasetPATH);
+		pca2.pca();
 	}
 }	
