@@ -17,7 +17,8 @@ Interface | IStatistics
     public String[][] findFrequency();
     public String[][] relativePercentage();
     public String[][] absolutePercentage();
-    public String[][] simpleDiagnose(String symptom);
+    public String[][] diagnose(String symptom);
+    public String[][] diagnose(String[] symptons);
 }
 ~~~
 
@@ -31,7 +32,7 @@ findUnique | Encontra as doenças únicas (ou seja, extrai repetições) e suas 
 findFrequency | Encontra a relação de atributos (sintomas) por doença em uma tabela. Exemplo: Paralysis em dois diagnósticos de Bacterial_Infection
 relativePercentage | Encontra a relação de porcentagem relativa dos sintomas (100% de paralysis em bacterial_infection);
 absolutePercentage | Acha a porcentagem absoluta dos sintomas (11% dos diagnosticos possuem paralysis em bacterial_infection
-simpleDiagnose | Dado um sintoma, retorna uma matriz com as doenças e as probabilidades. Utilizando os valores acima, se você tem paralysis, teria [(1/19)/(2/19)] = 50% de ter Bacterial Infection.
+diagnose | Dado um sintoma, retorna uma matriz com as doenças e as probabilidades. Utilizando os valores acima, se você tem paralysis, teria [(1/19)/(2/19)] = 50% de ter Bacterial Infection.
 
 # Componente `PCA_Analysis`
 
@@ -40,7 +41,8 @@ Campo | Valor
 Classe | Equipiada.Components.PCA_Analysis.PCA_Analysis
 Autores | Marcos Diaz
 Objetivo | Interface para o uso de Principal Component Analysis, um método que proporciona a redução da dimensão dos dados do ZombieHealth, de modo a permitir melhor visualizacao deles. O principal objetivo de proporcionar melhor visualizacao é facilitar a busca por padroes entre as doencas. Assim, o gráfico das duas dimensões pode ser interpretado como uma representação da proximidade de sintomas entre os casos de doenças, ou seja, doenças diferentes com agrupamentos mais próximos tem maior chance de serem diagnosicados trocadas.
-![Anotacao no grafico pca] (pca_annotation.jpg)
+![alt text] (https://github.com/ppalves/Trabalho322/pca_annotation.jpg?)
+
 ~~~
 public interface IPCA_Analysis {
     public void pca ();
@@ -74,8 +76,6 @@ public interface IDebugger{
     // Retorna string de debug do paciente;
     public String[] debugDoctor();
     // Retorna string de debug do doutor;
-    public String[] debugDiagnosis();
-    // Retorna string de debug da diagnose;
 }
 ~~~
 
@@ -88,7 +88,6 @@ Método | Objetivo
 void connect | Conecta ao medico e ao doutor
 debugPatient | Retorna string de debug do paciente
 debugDoctor | Retorna string de debug do doutor
-debugDiagnosis | Retorna string de debug da diagnose
 
 
 # Componente `Dialogue`
@@ -106,8 +105,9 @@ public interface IRealistic_Dialogue{
     public void additional(boolean additional);
     public void virose(boolean virose);
     public void identifiers(boolean additional);
+    public void start();
     public String questions(String question);
-    public String answers(String answer);
+    public String answer(String answer);
     
 }
 ~~~
@@ -121,7 +121,8 @@ additional | Conecta a interface com os ponteiros do paciente e doutor.
 additional | Aqui irá adicionar um vetor [N] de novos componentes para a conversa. Quando a entrevista coemçar, por exemplo, irá simular uma conversa entre o doutor e o paciente: "Olá, tudo bem?" "Sim, doutor"...
 virose | Simplesmente troca todas as doenças conhecidas por algum tipo de virose (Paravirosis, Virose bacteriana) e irá tentar fazer para doenças genéricas (virose __)
 identifiers | Faz as conversas como um script de teatro, começando com o Casting, os nomes identificados [Doutor]: e adiciona eventuais Ações.
+start | Impede que você inicie sem paciente e doutor.
 questions | Função padrão para utilizar o componente, basta colocar a pergunta na String e ele irá interpretar (pode ser apenas o sintoma, pode ser uma frase, etc...
-answers | Função padrão para resposta, basta colocar a resposta no campo da String e ele irá interpretar e transformar. Ambos questions e answers já imprimem por padrão e te retornam apenas a versão simplificada da resposta.
+answer | Função padrão para resposta, basta colocar a resposta no campo da String e ele irá interpretar e transformar. Ambos questions e answers já imprimem por padrão e te retornam apenas a versão simplificada da resposta.
 
 
