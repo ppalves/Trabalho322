@@ -1,7 +1,7 @@
 package Equipiada.Components.Dialogue.Dialogue;
 
 import Equipiada.Components.Dialogue.IDialogue.IDialogue;
-import Equipiada.Templates.IDoctor.IDoctor;
+import Equipiada.Templates.ITreeDoctor.ITreeDoctor;
 import Equipiada.Templates.IPatient.IPatient;
 
 import java.util.Random;
@@ -19,7 +19,7 @@ import java.io.IOException;
 /* **************************************** DIALOGUE ******************************* */
 public class Dialogue implements IDialogue {
     private IPatient patient;       //
-    private IDoctor doctor;         // Paciente e Doutor
+    private ITreeDoctor doctor;         // Paciente e Doutor
     private boolean badditional;    //
     private boolean bvirose;        // Booleans para tipos
     private boolean bidentifiers;   //
@@ -83,7 +83,7 @@ public class Dialogue implements IDialogue {
         }
     }
     /* ************************** Conect ************************** */
-    public void connect(IPatient p, IDoctor d){
+    public void connect(IPatient p, ITreeDoctor d){
         patient = p;
         doctor = d;
     }

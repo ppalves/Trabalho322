@@ -1,6 +1,6 @@
 package Equipiada.Components.Dialogue.IDialogue;
 
-import Equipiada.Templates.IDoctor.IDoctor;
+import Equipiada.Templates.ITreeDoctor.ITreeDoctor;
 import Equipiada.Templates.IPatient.IPatient;
 
 /**
@@ -12,7 +12,7 @@ import Equipiada.Templates.IPatient.IPatient;
 /* ****************************** Interface ****************************** */
 public interface IDialogue{
     // Conecta com o paciente e doutor
-    public void connect(IPatient p, IDoctor d);
+    public void connect(IPatient p, ITreeDoctor d);
     // On ou Off dos diálogos adicionais
     public void additional(boolean additional);
     // On ou Off para transformar doenças em viroses

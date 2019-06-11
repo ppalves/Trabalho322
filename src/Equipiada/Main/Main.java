@@ -13,6 +13,7 @@ import pt.clubedohardware.dataorganizer.IDataOrganizer;
 import pt.clubedohardware.dataorganizer.DataOrganizer;
 import pt.clubedohardware.node.Node;
 import pt.clubedohardware.node.Tree;
+import Equipiada.Components.Dialogue.Dialogue.Dialogue;
 
 
 
@@ -31,6 +32,16 @@ public class Main{
 
         treeDoctor.connect(aPatient);
 
+        System.out.println("\n==============================\n");
+
+        Dialogue dialogue = new Dialogue();
+
+        dialogue.connect(aPatient, treeDoctor);
+        dialogue.additional(true);
+        dialogue.virose(false);
+        dialogue.identifiers(true);
+        dialogue.start();
+
         IDataOrganizer dataOrganizer = new DataOrganizer();
 
         String[][] instances = dataset.requestInstances();
@@ -45,8 +56,12 @@ public class Main{
         List<Integer> diseasesNumbers = new ArrayList<>();
 
         for (Integer symptom: keySymptoms) {
+            System.out.println(dialogue.questions(attributes[symptom]));
+
             if(treeDoctor.askPatiente(attributes[symptom]).equalsIgnoreCase("yes"))
                 diseasesNumbers.add(tree.getKSDiagnostic(symptom));
+
+            System.out.println(dialogue.answer(treeDoctor.askPatiente(attributes[symptom])));
         }
 
 
@@ -55,10 +70,13 @@ public class Main{
             Node raiz = tree.getRoot();
 
             while (!raiz.getDiagnostico()) {
+                System.out.println(dialogue.questions(attributes[raiz.getSymptom()]));
                 if (treeDoctor.askPatiente(attributes[raiz.getSymptom()]).equalsIgnoreCase("yes"))
                     raiz = raiz.getEsquerdo();
                 else
                     raiz = raiz.getDireito();
+
+                System.out.println(dialogue.answer(treeDoctor.askPatiente(attributes[raiz.getSymptom()])));
             }
 
             diseasesNumbers = raiz.getDiseases();
@@ -66,8 +84,7 @@ public class Main{
         }
 
         for (Integer diseaseNumber: diseasesNumbers) {
-            System.out.print("Diagnostico");
-            System.out.println(diseases.get(diseaseNumber));
+            System.out.println(dialogue.diagnose(diseases.get(diseaseNumber)));
         }
     }
 }

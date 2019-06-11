@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Components1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/Equipiada/Components/PCA_Analysis.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/Equipiada/Components/Debugger.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/Equipiada/Components/Statistics.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/Equipiada/Components/Dialogue.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

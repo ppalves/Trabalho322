@@ -1,9 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="Statistic">
-    <output-path>$PROJECT_DIR$/out/artifacts/Statistic</output-path>
-    <root id="archive" name="Statistic.jar">
-      <element id="dir-copy" path="$PROJECT_DIR$/src/Equipiada/Components/Statistic" />
-      <element id="dir-copy" path="$PROJECT_DIR$/src/Equipiada/Templates" />
-    </root>
-  </artifact>
-</component>

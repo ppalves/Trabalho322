@@ -1,9 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="Dialogue">
-    <output-path>$PROJECT_DIR$/out/artifacts/Dialogue</output-path>
-    <root id="archive" name="Dialogue.jar">
-      <element id="dir-copy" path="$PROJECT_DIR$/src/Equipiada/Components/Dialogue" />
-      <element id="dir-copy" path="$PROJECT_DIR$/src/Equipiada/Templates" />
-    </root>
-  </artifact>
-</component>

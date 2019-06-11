@@ -1,78 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="Statistic" />
-    </artifacts-to-build>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ff401c6-ad8d-4cab-954c-920b23cc3a3f" name="Default Changelist" comment="">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/src/Equipiada/Components/TreeDoctor/TreeDoctor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Equipiada/Templates/ITreeDoctor/ITreeDoctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trabalho322.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Trabalho322.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Components/Debugger/DebugLog/DebugLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Components/Debugger/DebugLog/DebugLog.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Components/Dialogue/DialogueFactory/DialogueFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Components/Dialogue/DialogueFactory/DialogueFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Components/Dialogue/IDialogue/IDialogue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Components/Dialogue/IDialogue/IDialogue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Components/Dialogue/IDialogueFactory/IDialogueFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Components/Dialogue/IDialogueFactory/IDialogueFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Components/Statistic/IStatistic/IStatistic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Components/Statistic/IStatistic/IStatistic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Components/Statistic/IStatisticFactory/IStatisticFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Components/Statistic/IStatisticFactory/IStatisticFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Components/Statistic/Statistic/Statistic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Components/Statistic/Statistic/Statistic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Components/Statistic/StatisticFactory/StatisticFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Components/Statistic/StatisticFactory/StatisticFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Templates/DataSetComponent/DataSetComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Templates/DataSetComponent/DataSetComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Templates/Doctor/Doctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Templates/Doctor/Doctor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Templates/IDataSet/IDataSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Templates/IDataSet/IDataSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Templates/IDataSource/IDataSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Templates/IDataSource/IDataSource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Templates/IDoctor/IDoctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Templates/IDoctor/IDoctor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Templates/IEnquirer/IEnquirer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Templates/IEnquirer/IEnquirer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Templates/IPatient/IPatient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Templates/IPatient/IPatient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Templates/IResponder/IResponder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Templates/IResponder/IResponder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Templates/IResponderReceptacle/IResponderReceptacle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Templates/IResponderReceptacle/IResponderReceptacle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Templates/ITableProducer/ITableProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Templates/ITableProducer/ITableProducer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Templates/ITableProducerReceptacle/ITableProducerReceptacle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Templates/ITableProducerReceptacle/ITableProducerReceptacle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Templates/Patient/Patient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Templates/Patient/Patient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Equipiada/Components/Debugger/DebugLog/DebugLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Equipiada/Components/Debugger/DebugLog/DebugLog.txt" afterDir="false" />
+    <list default="true" id="772da709-f7d1-4a87-b207-c2b4faccafca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Debugger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Dialogue.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/PCA_Analysis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Statistic.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trabalho322.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Equipiada/Components/Dialogue/Dialogue/Dialogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Equipiada/Components/Dialogue/Dialogue/Dialogue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Equipiada/Components/Dialogue/Example/Dialogue_Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Equipiada/Components/Dialogue/IDialogue/IDialogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Equipiada/Components/Dialogue/IDialogue/IDialogue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Equipiada/Components/TreeDoctor/TreeDoctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Equipiada/Components/TreeDoctor/TreeDoctor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Equipiada/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Equipiada/Main/Main.java" afterDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Debugger.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Dialogue.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/PCA_Analysis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Statistic.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Equipiada/Components/PCA_Analysis.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Debugger_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Dialogue_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/PCA_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Statistic_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Debugger_jar/Debugger.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Dialogue_jar/Dialogue.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/PCA_jar/PCA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Statistic_jar/Statistic.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Components/Dialogue/DialogueFactory/DialogueFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Components/Dialogue/DialogueFactory/DialogueFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Components/Dialogue/DialogueText/DialogueText.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Components/Dialogue/DialogueText/DialogueText.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Components/Dialogue/IDialogue/IDialogue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Components/Dialogue/IDialogue/IDialogue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Components/Dialogue/IDialogueFactory/IDialogueFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Components/Dialogue/IDialogueFactory/IDialogueFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Templates/Doctor/Doctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Templates/Doctor/Doctor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Templates/IDoctor/IDoctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Templates/IDoctor/IDoctor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Templates/IPatient/IPatient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Templates/IPatient/IPatient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Templates/Patient/Patient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trabalho322/Equipiada/Templates/Patient/Patient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabalho322/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trabalho322/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Equipiada/Components/Debugger.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/Equipiada/Components/Debugger.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Equipiada/Components/Dialogue.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/Equipiada/Components/Dialogue.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Equipiada/Components/Dialogue/DialogueFactory/DialogueFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Equipiada/Components/Dialogue/DialogueFactory/DialogueFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Equipiada/Components/Dialogue/DialogueText/DialogueText.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Equipiada/Components/Dialogue/DialogueText/DialogueText.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Equipiada/Components/Dialogue/Example/Dialogue_Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Equipiada/Components/Dialogue/Example/Dialogue_Example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Equipiada/Components/Dialogue/IDialogueFactory/IDialogueFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Equipiada/Components/Dialogue/IDialogueFactory/IDialogueFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Equipiada/Components/PCA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Equipiada/Components/Statistic.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/Equipiada/Components/Statistic.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Equipiada/Components/Statistic/Example/StatisticExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Equipiada/Components/Statistic/Example/StatisticExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Equipiada/Templates/IDoctor/IDoctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Equipiada/Templates/IDoctor/IDoctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Equipiada/Templates/IPatient/IPatient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Equipiada/Templates/IPatient/IPatient.java" afterDir="false" />
->>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
+      <change beforePath="$PROJECT_DIR$/src/Equipiada/Templates/ITreeDoctor/ITreeDoctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Equipiada/Templates/ITreeDoctor/ITreeDoctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainDIalogue/mainTeste.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,40 +29,28 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-<<<<<<< HEAD
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Equipiada/Main/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1066">
-              <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README .md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="903">
+                <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Dialogue/Example/Dialogue_Example.java">
+        <entry file="file://$PROJECT_DIR$/src/Equipiada/Templates/ITreeDoctor/ITreeDoctor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Dialogue/Dialogue/Dialogue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2091">
-              <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+            <state relative-caret-position="105">
+              <caret line="5" selection-start-line="5" selection-end-line="8" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/TreeDoctor/TreeDoctor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="252">
+              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,75 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Equipiada/Templates/Doctor/Doctor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#317#318#0" expanded="true" />
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#529#530#0" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
-                <element signature="e#618#619#0" expanded="true" />
-                <element signature="e#660#661#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Equipiada/Templates/ITreeDoctor/ITreeDoctor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Equipiada/Templates/Patient/Patient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#415#416#0" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
-                <element signature="e#471#472#0" expanded="true" />
-=======
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Equipiada/Templates/IDoctor/IDoctor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="92" selection-start-line="6" selection-start-column="92" selection-end-line="6" selection-end-column="92" />
-              <folding>
-                <element signature="imports" expanded="true" />
->>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Equipiada/Templates/IPatient/IPatient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-=======
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Equipiada/Templates/IPatient/IPatient.java">
+        <entry file="file://$PROJECT_DIR$/src/Equipiada/Main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="72" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
->>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
+            <state relative-caret-position="63">
+              <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -213,23 +84,10 @@
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>system.out.println</find>
-      <find>doctor</find>
+      <find>Idoctor</find>
     </findStrings>
-    <dirStrings>
-      <dir>C:\Users\Micro\Desktop\Jaba\Trabalho322\src\Equipiada\Templates\Tables</dir>
-      <dir>C:\Users\Micro\Desktop\Jaba\Trabalho322\src\Equipiada\Components\Dialogue\DialogueText</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -237,57 +95,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Equipiada/Templates/IDataSource/IDataSource.java" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Templates/ITableProducer/ITableProducer.java" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Templates/ITableProducerReceptacle/ITableProducerReceptacle.java" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Templates/Tables/zombie-health-spreadsheet-ml-training.csv" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Templates/IDataSet/IDataSet.java" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Templates/DataSetComponent/DataSetComponent.java" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Templates/IResponder/IResponder.java" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Templates/IResponderReceptacle/IResponderReceptacle.java" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Templates/IEnquirer/IEnquirer.java" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Components/Statistic/IStatistic/IStatistic.java" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Components/Statistic/IStatisticFactory/IStatisticFactory.java" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Components/Statistic/StatisticFactory/StatisticFactory.java" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Components/Statistic/Statistic/Statistic.java" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Components/Dialogue/DialogueText/DialogueText" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/src/Equipiada/Components/Dialogue/DialogueText/DialogueText.txt" />
-=======
-        <option value="$PROJECT_DIR$/src/Equipiada/Templates/Doctor/Doctor.java" />
->>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
-        <option value="$PROJECT_DIR$/src/Equipiada/Templates/Patient/Patient.java" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Components/Dialogue/Example/Main.java" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Components/Statistic/Example/Main.java" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Components/Dialogue/DialogueFactory/DialogueFactory.java" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Components/Dialogue/IDialogueFactory/IDialogueFactory.java" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Components/Debugger/IDebugger/IDebugger.java" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Components/Debugger/Debugger/Debugger.java" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Components/Debugger/Example/Main.java" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Components/Debugger/DebugLog/DebugLog.txt" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Components/Dialogue/Dialogue/IDoctor.java" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Components/Dialogue/Dialogue/IPatient.java" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Components/Dialogue/IDialogue/IPatient.java" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Components/Dialogue/IDialogue/Doctor.java" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Components/Dialogue/IDialogue/Patient.java" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Components/Dialogue/IDialogue/IeDoctor.java" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Components/Dialogue/Dialogue/RealisticDialogue.java" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Components/Dialogue/Dialogue/Dialogue.java" />
+        <option value="$PROJECT_DIR$/src/MainDIalogue/mainTeste.java" />
         <option value="$PROJECT_DIR$/src/Equipiada/Components/Dialogue/IDialogue/IDialogue.java" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Components/Statistic/Example/StatisticExample.java" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Components/Dialogue/Example/Dialogue_Example.java" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/src/Equipiada/Components/Debugger/DebugLog/DebugLog.txt" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Templates/Doctor/Doctor.java" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Main/TreeDoctor.java" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Components/TreeDoctor/TreeDoctor.java" />
+        <option value="$PROJECT_DIR$/src/Equipiada/Components/Dialogue/Dialogue/Dialogue.java" />
         <option value="$PROJECT_DIR$/src/Equipiada/Templates/ITreeDoctor/ITreeDoctor.java" />
         <option value="$PROJECT_DIR$/src/Equipiada/Main/Main.java" />
-=======
-        <option value="$PROJECT_DIR$/src/Equipiada/Components/Dialogue/DialogueText/DialogueText.txt" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Templates/IDoctor/IDoctor.java" />
-        <option value="$PROJECT_DIR$/src/Equipiada/Templates/IPatient/IPatient.java" />
->>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
+        <option value="$PROJECT_DIR$/src/Equipiada/Components/TreeDoctor/TreeDoctor.java" />
+        <option value="$PROJECT_DIR$/README .md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -301,260 +116,88 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Trabalho322" type="462c0819:PsiDirectoryNode" />
+              <item name="Equipiada322" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrabalhoAgrVai" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Trabalho322" type="462c0819:PsiDirectoryNode" />
+              <item name="Equipiada322" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrabalhoAgrVai" type="462c0819:PsiDirectoryNode" />
+              <item name="jars" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Equipiada322" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrabalhoAgrVai" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Trabalho322" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Equipiada" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Trabalho322" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
+              <item name="Equipiada322" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrabalhoAgrVai" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Equipiada" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="Debugger" type="462c0819:PsiDirectoryNode" />
->>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
             </path>
             <path>
-              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Trabalho322" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
+              <item name="Equipiada322" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrabalhoAgrVai" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Equipiada" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
->>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
-              <item name="Dialogue" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Trabalho322" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
+              <item name="Equipiada322" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrabalhoAgrVai" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Equipiada" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Dialogue" type="462c0819:PsiDirectoryNode" />
-              <item name="Dialogue" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="PCA_Analysis" type="462c0819:PsiDirectoryNode" />
->>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
-            </path>
-            <path>
-              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Trabalho322" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Equipiada" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Dialogue" type="462c0819:PsiDirectoryNode" />
-              <item name="Example" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="Statistic" type="462c0819:PsiDirectoryNode" />
->>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
-            </path>
-            <path>
-              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Trabalho322" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
               <item name="Equipiada" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
               <item name="TreeDoctor" type="462c0819:PsiDirectoryNode" />
-=======
->>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
             </path>
             <path>
-              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Trabalho322" type="462c0819:PsiDirectoryNode" />
+              <item name="Equipiada322" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrabalhoAgrVai" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Equipiada" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
               <item name="Main" type="462c0819:PsiDirectoryNode" />
-=======
->>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
             </path>
             <path>
-              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Trabalho322" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Equipiada" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="Templates" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
->>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
-            </path>
-            <path>
-              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Trabalho322" type="462c0819:PsiDirectoryNode" />
+              <item name="Equipiada322" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrabalhoAgrVai" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Equipiada" type="462c0819:PsiDirectoryNode" />
               <item name="Templates" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="DataSetComponent" type="462c0819:PsiDirectoryNode" />
-=======
->>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
             </path>
             <path>
-              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Trabalho322" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Equipiada" type="462c0819:PsiDirectoryNode" />
-              <item name="Templates" type="462c0819:PsiDirectoryNode" />
-              <item name="Doctor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Trabalho322" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Equipiada" type="462c0819:PsiDirectoryNode" />
-              <item name="Templates" type="462c0819:PsiDirectoryNode" />
-              <item name="IDoctor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Trabalho322" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Equipiada" type="462c0819:PsiDirectoryNode" />
-              <item name="Templates" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="IEnquirer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Trabalho322" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Equipiada" type="462c0819:PsiDirectoryNode" />
-              <item name="Templates" type="462c0819:PsiDirectoryNode" />
-=======
->>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
-              <item name="IPatient" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Trabalho322" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Equipiada" type="462c0819:PsiDirectoryNode" />
-              <item name="Templates" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="IResponder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Trabalho322" type="462c0819:PsiDirectoryNode" />
+              <item name="Equipiada322" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrabalhoAgrVai" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Equipiada" type="462c0819:PsiDirectoryNode" />
               <item name="Templates" type="462c0819:PsiDirectoryNode" />
               <item name="ITreeDoctor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Trabalho322" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Equipiada" type="462c0819:PsiDirectoryNode" />
-              <item name="Templates" type="462c0819:PsiDirectoryNode" />
-              <item name="Patient" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Trabalho322" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Equipiada" type="462c0819:PsiDirectoryNode" />
-              <item name="Templates" type="462c0819:PsiDirectoryNode" />
-              <item name="Tables" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Equipiada322" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="dataorganizercomDC.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="dataorganizercomDC.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="clubedohardware" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="dataorganizercomDC.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="clubedohardware" type="462c0819:PsiDirectoryNode" />
-              <item name="dataorganizer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="dataorganizercomDC.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="clubedohardware" type="462c0819:PsiDirectoryNode" />
-              <item name="diagnosticcompleter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="dataorganizercomDC.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="clubedohardware" type="462c0819:PsiDirectoryNode" />
-              <item name="node" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="Patient" type="462c0819:PsiDirectoryNode" />
->>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gitLeo/mc322/projeto/jarfiles/dataorganizercomDC.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jars/ibm-watson-7.0.0-jar-with-dependencies.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Micro\Desktop\Jaba\Trabalho322\src\Equipiada\Components" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Equipiada.Components.Dialogue.IDialogue" />
-      <recent name="Equipiada.Components.Dialogue.Dialogue" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Micro\Desktop\Jaba\Trabalho322\src\Equipiada\Components\Dialogue\DialogueText" />
-      <recent name="C:\Users\Micro\Desktop\Jaba\Trabalho322\src\Equipiada\Components\Dialogue\Dialogue" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -568,36 +211,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Dialogue_Example">
-    <configuration name="DebuggerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Equipiada.Components.Debugger.Example.DebuggerExample" />
-      <module name="Trabalho322" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Equipiada.Components.Debugger.Example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Dialogue_Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Equipiada.Components.Dialogue.Example.Dialogue_Example" />
-      <module name="Trabalho322" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Equipiada.Components.Dialogue.Example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Equipiada.Main.Main" />
-      <module name="Trabalho322" />
+      <module name="TrabalhoAgrVai" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Equipiada.Main.*" />
@@ -608,30 +225,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StatisticExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Equipiada.Components.Statistic.Example.StatisticExample" />
-      <module name="Trabalho322" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Equipiada.Components.Statistic.Example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Dialogue_Example" />
-<<<<<<< HEAD
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.DebuggerExample" />
-        <item itemvalue="Application.StatisticExample" />
-=======
-        <item itemvalue="Application.StatisticExample" />
-        <item itemvalue="Application.DebuggerExample" />
->>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
       </list>
     </recent_temporary>
   </component>
@@ -640,591 +236,174 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2ff401c6-ad8d-4cab-954c-920b23cc3a3f" name="Default Changelist" comment="" />
-      <created>1559850283598</created>
+      <changelist id="772da709-f7d1-4a87-b207-c2b4faccafca" name="Default Changelist" comment="" />
+      <created>1560199409880</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1559850283598</updated>
-      <workItem from="1560120910888" duration="16268000" />
-      <workItem from="1560143699587" duration="421000" />
+      <updated>1560199409880</updated>
+      <workItem from="1560199411959" duration="5181000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16689000" />
+    <option name="totallyTimeSpent" value="5181000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-<<<<<<< HEAD
-      <window_info id="Learn" order="0" weight="0.32932165" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2054429" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Designer" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32872504" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32829374" />
-=======
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31089258" />
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Learn" weight="0.32977587" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" weight="0.32894737" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32718894" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.04608295" />
->>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39938557" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.71710527" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32872504" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-=======
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.359447" />
->>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31026438" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32872504" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32872504" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39938557" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.35966387" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand>
-      <path>
-        <item name="Trabalho322" type="b2602c69:ProjectViewProjectNode" />
-        <item name="Trabalho322" type="462c0819:PsiDirectoryNode" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Templates/IDataSource/IDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Templates/Tables/zombie-health-spreadsheet-ml-training.csv" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Templates/Tables/zombie-health-spreadsheet-ml-training.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
->>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Templates/ITableProducerReceptacle/ITableProducerReceptacle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Templates/ITableProducer/ITableProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../New/Trabalho322/src/Equipiada/Components/Statistic/Example/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Templates/DataSetComponent/DataSetComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#926#936#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Templates/IDataSource/IResponder/IResponder.java" />
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Statistic/StatisticFactory/StatisticFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Statistic/IStatisticFactory/IStatisticFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding>
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Dialogue/DialogueText/DialogueText.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Dialogue/IDialogueFactory/IDialogueFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Main/Main.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Statistic/StatisticFactory/StatisticFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
->>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="84">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Dialogue/DialogueFactory/DialogueFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Statistic/IStatisticFactory/IStatisticFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
->>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
-          <folding>
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Statistic/IStatistic/IStatistic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Dialogue/IDialogueFactory/IDialogueFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
->>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Statistic/Statistic/Statistic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="28" column="47" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="47" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Dialogue/DialogueFactory/DialogueFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
->>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Debugger/IDebugger/IDebugger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Statistic/IStatistic/IStatistic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
->>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$USER_HOME$/Downloads/Main.class" />
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Dialogue/META-INF/MANIFEST.MF" />
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Debugger/DebugLog/DebugLog.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-163" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Templates/IDataSet/IDataSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Statistic/Statistic/Statistic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="28" column="47" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="47" />
->>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Statistic/Example/StatisticExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Debugger/Debugger/Debugger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Debugger/IDebugger/IDebugger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/Main.class" />
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Dialogue/META-INF/MANIFEST.MF" />
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Debugger/Example/DebuggerExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
->>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Dialogue/IDialogue/IDialogue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Dialogue/IDialogue/Patient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Dialogue/IDialogue/Doctor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="48" selection-start-column="48" selection-end-column="48" />
->>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
+        <state relative-caret-position="63">
+          <caret line="3" column="45" lean-forward="true" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Debugger/Example/DebuggerExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Templates/IResponder/IResponder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Templates/IEnquirer/IEnquirer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../gitLeo/mc322/projeto/jarfiles/dataorganizercomDC.jar!/pt/clubedohardware/dataorganizer/DataOrganizer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Templates/IDoctor/IDoctor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Dialogue/IDialogue/IPatient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Dialogue/IDialogue/IDoctor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
->>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Main/TreeDoctor.java" />
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Templates/IResponderReceptacle/IResponderReceptacle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/TreeDoctor/TreeDoctor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Debugger/Debugger/Debugger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="103" column="25" selection-start-line="103" selection-start-column="25" selection-end-line="103" selection-end-column="25" />
->>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Debugger/DebugLog/DebugLog.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Templates/Doctor/Doctor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Templates/ITreeDoctor/ITreeDoctor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Templates/Patient/Patient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="64" lean-forward="true" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="64" />
->>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Templates/Patient/Patient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Templates/IPatient/IPatient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Dialogue/DialogueText/DialogueText.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Dialogue/Example/Dialogue_Example.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
->>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
+        <state relative-caret-position="315">
+          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainDIalogue/mainTeste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Dialogue/Example/Dialogue_Example.java">
+    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Dialogue/DialogueFactory/DialogueFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Dialogue/IDialogue/IDialogue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="84">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Statistic/Example/StatisticExample.java">
+    <entry file="file://$PROJECT_DIR$/TrabalhoAgrVai.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trabalho322.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Statistic/Statistic/Statistic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
->>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="84">
+          <caret line="7" selection-start-line="7" selection-end-line="13" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Dialogue/Dialogue/Dialogue.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="-2091">
-          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
-=======
-        <state relative-caret-position="68">
-          <caret line="4" column="45" lean-forward="true" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Templates/IDoctor/IDoctor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="92" selection-start-line="6" selection-start-column="92" selection-end-line="6" selection-end-column="92" />
->>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
+        <state relative-caret-position="357">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Equipiada/Templates/ITreeDoctor/ITreeDoctor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" selection-start-line="5" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/TreeDoctor/TreeDoctor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README .md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="903">
+            <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Equipiada/Main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1066">
-          <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Templates/IPatient/IPatient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="72" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
->>>>>>> 371152cf91ac1b937e4791456f590ef33cbad7fd
+        <state relative-caret-position="63">
+          <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1236,13 +415,7 @@
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
-          <artifact-editor>
-            <show-content>
-              <type id="artifact" />
-              <type id="library" />
-            </show-content>
-          </artifact-editor>
-          <last-edited>PCA_Analysis</last-edited>
+          <artifact-editor />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1254,7 +427,6 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1288,7 +460,19 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Trabalho322</last-edited>
+          <last-edited>TrabalhoAgrVai</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1299,17 +483,6 @@
         </settings>
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">
