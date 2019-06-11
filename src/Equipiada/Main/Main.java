@@ -16,11 +16,10 @@ import pt.clubedohardware.node.Tree;
 import Equipiada.Components.Dialogue.Dialogue.Dialogue;
 
 
-
 public class Main{
     public static void main(String[] args){
 
-        String path = "/home/pupo/Documents/graduação/mc322/Trabalho322/src/Equipiada/Templates/Tables/zombie-health-spreadsheet-ml-training.csv";
+        String path = "/home/pupo/Documents/graduação/mc322/TrabalhoAgrVai/src/Equipiada/Templates/Tables/zombie-health-spreadsheet-ml-training.csv";
         IDataSet dataset = new DataSetComponent();
         dataset.setDataSource(path);
 
