@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="772da709-f7d1-4a87-b207-c2b4faccafca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrabalhoAgrVai/Equipiada/Main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TrabalhoAgrVai/Equipiada/Main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Equipiada/Components/Debugger/DebugLog/DebugLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Equipiada/Components/Debugger/DebugLog/DebugLog.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Equipiada/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Equipiada/Main/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -43,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Equipiada/Main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="617">
+              <caret line="47" column="126" selection-start-line="47" selection-start-column="126" selection-end-line="47" selection-end-column="126" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/PCA_Analysis/PCA_Example/PCA_Example.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="294">
+              <caret line="14" column="82" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="82" />
             </state>
           </provider>
         </entry>
@@ -128,8 +125,8 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="25" />
-    <option name="width" value="960" />
-    <option name="height" value="1055" />
+    <option name="width" value="950" />
+    <option name="height" value="791" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -299,7 +296,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StatisticExample">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="DebuggerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Equipiada.Components.Debugger.Example.DebuggerExample" />
       <module name="TrabalhoAgrVai" />
@@ -341,9 +338,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.StatisticExample" />
         <item itemvalue="Application.DebuggerExample" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -359,17 +356,18 @@
       <updated>1560199409880</updated>
       <workItem from="1560199411959" duration="5670000" />
       <workItem from="1560217350551" duration="648000" />
-      <workItem from="1560257141791" duration="1531000" />
+      <workItem from="1560257141791" duration="2834000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7849000" />
+    <option name="totallyTimeSpent" value="9152000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25506938" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25506938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -493,16 +491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Debugger/Example/DebuggerExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -515,6 +503,13 @@
         <state relative-caret-position="-1884" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/PCA_Analysis/PCA_Example/PCA_Example.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="82" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/Statistic/Example/StatisticExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -522,10 +517,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Equipiada/Components/PCA_Analysis/PCA_Example/PCA_Example.java">
+    <entry file="file://$PROJECT_DIR$/src/Equipiada/Main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="617">
+          <caret line="47" column="126" selection-start-line="47" selection-start-column="126" selection-end-line="47" selection-end-column="126" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -14,6 +14,7 @@ import pt.clubedohardware.dataorganizer.DataOrganizer;
 import pt.clubedohardware.node.Node;
 import pt.clubedohardware.node.Tree;
 import Equipiada.Components.Dialogue.Dialogue.Dialogue;
+import Equipiada.Components.PCA_Analysis.PCA_Analysis.PCA_Analysis;
 
 
 public class Main{
@@ -22,6 +23,31 @@ public class Main{
         String path = "/home/pupo/Documents/graduação/mc322/TrabalhoAgrVai/src/Equipiada/Templates/Tables/zombie-health-spreadsheet-ml-training.csv";
         IDataSet dataset = new DataSetComponent();
         dataset.setDataSource(path);
+
+        //PCA
+        PCA_Analysis pca1 = new PCA_Analysis("/usr/bin/python3"
+, "/home/pupo/Documents/graduação/mc322/TrabalhoAgrVai/src/Equipiada/Components/PCA_Analysis/PCA_Analysis/pca_prototype_scatter.py"
+                , path);
+        pca1.pca();
+        pca1.showPlot();
+
+        PCA_Analysis pca2 = new PCA_Analysis("/usr/bin/python3"
+                , "/home/pupo/Documents/graduação/mc322/TrabalhoAgrVai/src/Equipiada/Components/PCA_Analysis/PCA_Analysis/pca_prototype_scatter.py"
+                , "/home/pupo/Documents/graduação/mc322/TrabalhoAgrVai/src/Equipiada/Templates/Tables/zombie-health-cases500.csv");
+        pca2.pca();
+        pca2.showPlot();
+
+        PCA_Analysis pca3 = new PCA_Analysis("/usr/bin/python3"
+                , "/home/pupo/Documents/graduação/mc322/TrabalhoAgrVai/src/Equipiada/Components/PCA_Analysis/PCA_Analysis/pca_prototype_scatter.py"
+                , "/home/pupo/Documents/graduação/mc322/TrabalhoAgrVai/src/Equipiada/Templates/Tables/zombie-health-new-cases500.csv");
+        pca3.pca();
+        pca3.showPlot();
+
+        PCA_Analysis pca4 = new PCA_Analysis("/usr/bin/python3"
+                , "/home/pupo/Documents/graduação/mc322/TrabalhoAgrVai/src/Equipiada/Components/PCA_Analysis/PCA_Analysis/pca_prototype_scatter.py"
+                , "/home/pupo/Documents/graduação/mc322/TrabalhoAgrVai/src/Equipiada/Templates/Tables/zombie-health-new-cases20.csv");
+        pca4.pca();
+        pca4.showPlot();
 
         IPatient aPatient = new Patient("Elton");
         aPatient.connect(dataset);
